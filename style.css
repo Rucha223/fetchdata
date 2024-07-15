@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Add space between columns */
+}
+
+#posts, #todos {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black; /* Add borders for visibility */
+}
+
+#posts-error, #todos-error {
+    margin-top: 20px;
+    border: 1px solid red; /* Add borders for visibility */
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 20px; /* Add space below the main heading */
+    text-align: center; /* Center the main heading */
+}
+
+.column-heading {
+    margin-bottom: 20px; /* Add space below the column headings */
+    text-align: center; /* Center the column headings */
+    box-sizing: border-box;
+    border: 1px solid black; /* Add borders for visibility */
+}
+
+.column-content {
+    margin-top: 20px; /* Add space above the content */
+}
+
+.post, .todos {
+    margin-bottom: 20px; /* Add space between posts and todos */
+}
